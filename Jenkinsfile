@@ -13,7 +13,7 @@ pipeline {
       }
     stage ("deploy on master"){
       steps {
-        sh "git clone "
+        sh "git clone https://github.com/adinathshelke/multibranch-on-slave.git"
       }
       
     }
