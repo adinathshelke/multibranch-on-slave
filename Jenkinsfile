@@ -1,7 +1,7 @@
 pipeline {
   agent {
     label {
-      label "master"
+      label "slave2"
       customWorkspace "/mnt/multibranch-slave"
     }
   }
